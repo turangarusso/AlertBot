@@ -1,5 +1,3 @@
-# AlertBot
-A simple discord bot that send an alert when a user login in windows server
 
 <h1 align="center">
   <br>

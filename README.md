@@ -47,7 +47,7 @@
 
 You can build the project using Pycharm, then you need to insert your discord bot token inside the code
 
-```
+```python
 client = commands.Bot(command_prefix=("t!"))
 token = "Your Discord Developer Token"
 
@@ -55,7 +55,7 @@ token = "Your Discord Developer Token"
 
 Change the discord channel ID 
 
-```
+```python
 async def on_ready():
     print(client.user, client.user.id)
     channel = client.get_channel(968628680559575043) <-- your discord channel ID
@@ -63,7 +63,7 @@ async def on_ready():
 ```
 Change the message text if you want
 
-```
+```python
 
 await channel.send('Un utente è nella vps, non entrarci')
 
